@@ -1,0 +1,57 @@
+body   {
+		/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+		/*font-family: "Copperplate/Copperplate Gothic Light", sans-serif;*/
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size  : 12px}
+input  {font-family: sans-serif}
+img    {border: none;}
+h1, h2 {margin:0; padding:0}
+pre    {margin:0; padding:0}
+
+label   { width:120px; float:left}
+
+.meniu {
+	border-top: 1px dotted blue;
+	border-bottom: 1px dotted blue;
+	font-size: 200%;
+}
+
+.flag {
+	border: 1px solid gray;
+}
+
+.inl {
+	display:inline;
+}
+
+.small {
+	font-size: xx-small;
+}
+.large {
+	font-size: xx-large;
+}
+
+.error   { color: red;}
+.info    { color: DarkOliveGreen;}
+.clickable { cursor: pointer }
+.talk {display:block}
+.chat {display:block}
+.talker {display:block}
+#chat_talks_box { 
+	width : 500px; 
+	height: 300px;
+	overflow-y: scroll; 
+	overflow-x: hidden;
+}
+#talkers_list_box { float:left; }
+#chat_talks_box {
+	border-left: 1px solid gainsboro;
+	margin-left: 10px;
+	float:left;
+}
+.clear { clear:both; }
+#form_chat_box label {width:auto;float:none}
+#form_create_chat label {width:auto;float:none}
+.akey {text-decoration:underline}
+.no_underline a {text-decoration:none}
+#msgs span {display:block}

@@ -1,0 +1,55 @@
+				Documentation
+					for
+			   Project C|-|/-\T
+
+This document describes idea.
+
+In short: Chat is fun tool to talk over Internet.
+Longer version: Chat window is a place for user to talk with other users over Internet.
+
+Chat window description
+
+					 CHAT WINDOW
+	--------------------------------------------
+	| II.     | I. TALKS                       | 
+	| TALKERS |                                |
+	|		  | 			     			   |
+    |		  |		             	           |
+	|		  |					 			   |
+	|		  |					 			   |
+	|		  |					    	       |
+	|		  |					 			   |
+	|		  |					 	   		   |
+	|		  |					 			   |
+	|		  |					 			   |
+	|------------------------------------------|
+	| [Say!] text:> CHAT BOX				   |
+	--------------------------------------------
+
+Chat window shows chat.
+
+I. TALKS is a list of talks.
+II. TALKERS is a list of talkers in this chat.
+
+A. How to talk?
+1. Type URL http://<website where chat is installed>
+2. If you are new user then go to B. "Registration"
+3. If you have an account then login:
+	- fill fields login, password,
+	- click on the button "Login".
+4. Chat window appears. If you do not see chat window then read Chapter B. "Registration".
+5. Now you are in chat window.
+6. Type text in input field "text:>".
+
+B. Registration
+1. Registration is obligatory. You need an account.
+2. Open an account:
+	- go to index.php,
+	- follow a link "Create your account",
+	- fill fields login, password, confirm password, e-mail and click on the button "Create your account".
+	- Confirm your account's validity: follow activation link.
+
+C. Short keys
+	"t" - focus "text input field",
+	"n" - click "Change nickname" ,
+
